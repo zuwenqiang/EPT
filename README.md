@@ -36,6 +36,8 @@ $ mim install mmcv-full==1.6.0
 
 1) MedFMC - [Link](https://opendatalab.com/OpenDataLab/MedFMC)
 
+2) ISIC 2018 - [Link](https://challenge.isic-archive.com/data/#2018)
+
 ## Data Format
 
 Make sure to put the files as the following structure:
@@ -96,6 +98,10 @@ python tools/test.py $CONFIG $CHECKPOINT --metrics AUC_multiclass
 ### Acknowledgements:
 
 The repository is built upon [MedFM](https://github.com/openmedlab/MedFM). More details could be found at [MedFM](https://github.com/openmedlab/MedFM).
+
+## 🎫 License
+
+This project is released under the [Apache 2.0 license](LICENSE).
 
 ### Citation:
 
